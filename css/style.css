@@ -161,6 +161,10 @@ h6 {
     transition: all 0.5s;
 }
 
+#header #logo {
+    display: inline-block;
+}
+
 #header #logo h1 {
     font-size: 36px;
     margin: 0;
@@ -255,6 +259,7 @@ h6 {
 #nav-menu-container {
     float: right;
     margin: 0;
+    padding: 7px 0;
 }
 
 /* Nav Meu Styling */
@@ -511,7 +516,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-family: "Playfair Display", "Raleway", sans-serif;
     font-size: 56px;
     font-weight: 600;
-/*     text-transform: uppercase; */
+    /*     text-transform: uppercase; */
 }
 
 #intro h1 span {
@@ -626,6 +631,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         transform: scale(0.6, 0.6);
         opacity: 1;
     }
+
     100% {
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
@@ -639,6 +645,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         transform: scale(0.6, 0.6);
         opacity: 1;
     }
+
     100% {
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
@@ -691,20 +698,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Speakers Section
+# Speakers Section -> Gallery
 --------------------------------------------------------------*/
 
-#speakers {
+#gallery {
     padding: 60px 0 30px 0;
 }
 
-#speakers .speaker {
+#gallery .gallery {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
+#gallery .gallery .details {
     background: rgba(6, 12, 34, 0.76);
     position: absolute;
     left: 0;
@@ -715,52 +722,52 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#speakers .speaker .details h3 {
+#gallery .gallery .details h3 {
     color: #fff;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-#speakers .speaker .details p {
+#gallery .gallery .details p {
     color: #fff;
     font-size: 15px;
     margin-bottom: 10px;
     font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#gallery .gallery .details .social {
     height: 30px;
 }
 
-#speakers .speaker .details a {
+#gallery .gallery .details a {
     color: #fff;
 }
 
-#speakers .speaker .details a:hover {
+#gallery .gallery .details a:hover {
     color: #f82249;
 }
 
-#speakers .speaker:hover .details {
+#gallery .gallery:hover .details {
     bottom: 0;
 }
 
-#speakers-details {
+#gallery-details {
     padding: 60px 0;
 }
 
-#speakers-details .details h2 {
+#gallery-details .details h2 {
     color: #112363;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-#speakers-details .details .social {
+#gallery-details .details .social {
     margin-bottom: 15px;
 }
 
-#speakers-details .details .social a {
+#gallery-details .details .social a {
     background: #e9edfb;
     color: #112363;
     line-height: 1;
@@ -772,16 +779,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-top: 9px;
 }
 
-#speakers-details .details .social a:hover {
+#gallery-details .details .social a:hover {
     background: #f82249;
     color: #fff;
 }
 
-#speakers-details .details .social a i {
+#gallery-details .details .social a i {
     font-size: 18px;
 }
 
-#speakers-details .details p {
+#gallery-details .details p {
     color: #112363;
     font-size: 15px;
     margin-bottom: 10px;
@@ -1544,11 +1551,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
+
     #contact .contact-address,
     #contact .contact-phone,
     #contact .contact-email {
         padding: 20px 0;
     }
+
     #contact .contact-phone {
         border-left: 1px solid #ddd;
         border-right: 1px solid #ddd;
@@ -1565,9 +1574,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     #intro {
         background-attachment: fixed;
     }
+
     #about {
         background-attachment: fixed;
     }
+
     #subscribe {
         background-attachment: fixed;
     }
@@ -1577,6 +1588,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     #header .container {
         max-width: 100%;
     }
+
     .nav-menu a {
         padding: 8px 4px;
     }
@@ -1589,21 +1601,27 @@ body.mobile-nav-active #mobile-nav-toggle {
         padding: 15px 0;
         transition: all 0.5s;
     }
+
     #nav-menu-container {
         display: none;
     }
+
     #mobile-nav-toggle {
         display: inline;
     }
+
     #intro .intro-container {
         top: 70px;
     }
+
     #intro h1 {
         font-size: 34px;
     }
+
     #intro p {
         font-size: 16px;
     }
+
     #schedule .nav-tabs a {
         padding: 8px 60px;
     }
@@ -1613,9 +1631,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     .back-to-top {
         bottom: 15px;
     }
+
     #faq #faq-list a {
         font-size: 18px;
     }
+
     #faq #faq-list i {
         top: 13px;
     }
