@@ -115,7 +115,10 @@
         <div id="logo" class="pull-left">
           <!-- Uncomment below if you prefer to use a text logo -->
           <h1>
-            <a href="#main"><span>R</span>A</a>
+            <a href="#main">
+              <span>Ryan Arnanjaya</span>
+              <div style="margin-top:6px;">Character TD</div>
+            </a>
           </h1>
           <!-- <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a> -->
           <!-- <a href="#intro" class="scrollto"><img src="img/logo.jpg" alt="Logo Ryan Arnanjaya" title="Logo Ryan Arnanjaya"></a> -->
@@ -124,8 +127,8 @@
         <nav id="nav-menu-container">
           <ul class="nav-menu">
             <li class="menu-active"><a href="#intro">Home</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#footer">Contact</a></li>
           </ul>
         </nav>
@@ -138,62 +141,39 @@
     Intro Section
   ============================-->
     <section id="intro">
-      <div class="intro-container wow fadeIn">
+      <div
+        class="intro-container wow fadeIn"
+        style="visibility:visible;animation-name:fadeIn; padding-bottom:50px;"
+      >
         <!-- <h1 class="mb-4 pb-0">The Annual<br><span>Marketing</span> Conference</h1> -->
-        <h1 class="mb-4 pb-0">Ryan Arnanjaya</h1>
-        <p class="mb-4 pb-0">Technical Artist Show Reel.</p>
-        <a
+        <!-- <h1 class="mb-4 pb-0">Ryan Arnanjaya</h1> -->
+        <h1 class="mt-5 pt-0 mb-1 pb-0">
+          End to End Character Asset Production
+        </h1>
+        <!-- <p class="mb-4 pb-0">Technical Artist</p> -->
+        <p class="mb-4 pb-0">
+          Model - Rig - Animation - Simulation - Texture - Render - Script
+        </p>
+        <!-- <a
           href="https://vimeo.com/316411303"
           class="venobox play-btn mb-4"
           data-vbtype="video"
           data-autoplay="true"
-        ></a>
-        <a href="#about" class="about-btn scrollto">About Ryan</a>
+        ></a> -->
+        <div class="embed-responsive embed-responsive-16by9 mb-6 pb-0">
+          <iframe
+            class="embed-responsive-item"
+            src="https://player.vimeo.com/video/316411303?autoplay=1"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+        <!-- <a href="#about" class="about-btn scrollto">About Ryan</a> -->
       </div>
     </section>
 
     <main id="main">
-      <!--==========================
-      About Section
-    ============================-->
-      <section id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <img class="portrait-image" src="img/portrait.jpg" />
-            </div>
-            <div class="col-lg-9">
-              <h2>About Ryan</h2>
-              <p>
-                Ryan Arnanjaya showed a keen interest in the world of animation
-                as a child. He loved watching cartoons and animations on TV. He
-                especially enjoyed creating 3D models of cartoon characters from
-                paper. Ryan was fascinated by 3D computer graphics applications
-                when he was an adolescent, which has become his sole passion.
-                While learning the nuances of 3D methodology, Ryan also pursued
-                deep learning, machine learning, and computer vision in his
-                spare time.
-              </p>
-              <p>
-                Currently, Ryan is studying 3D Computer Animation and Visual
-                Effects at the Academy of Art University with an emphasis on
-                Rigging. He is proficient in Maya and Zbrush, employing Python,
-                MEL, PyMel, and C++ to create production tools and
-                workflow-accelerating scripts. Ryan previously worked as a
-                Technical Director / Rigger Intern at Hompimpa Animation and
-                Enspire Studio.
-              </p>
-              <p>
-                Ryan envisions the creation of memorable digital characters
-                through creative and technical excellence. He believes in
-                teamwork and effective hard work in contributing to a team’s
-                success.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!--==========================
       Gallery Section
     ============================-->
@@ -201,7 +181,30 @@
         <div class="container">
           <div class="section-header">
             <h2>Gallery</h2>
-            <p>Featuring technical and artistic excellence.</p>
+            <p>Featuring technical and artistic excellence</p>
+
+            <div
+              class="embed-responsive embed-responsive-16by9"
+              style="padding-bottom:60px;"
+            >
+              <iframe
+                class="embed-responsive-item"
+                src="https://player.vimeo.com/video/380659329"
+                allow="fullscreen"
+                allowfullscreen
+              ></iframe>
+              <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://player.vimeo.com/video/338065128"
+                allow="fullscreen"
+                allowfullscreen
+              ></iframe>
+              <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
           </div>
           <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -213,7 +216,7 @@
                 />
                 <div class="details">
                   <h3><a href="gallery-details.html">Ecorche</a></h3>
-                  <p>31 inch clay sculpture.</p>
+                  <p>31 inch clay sculpture</p>
                   <div class="social">
                     <!-- <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -321,6 +324,51 @@
           </div>
         </div>
       </section>
+
+      <!--==========================
+      About Section
+    ============================-->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-5 col-6">
+              <img class="portrait-image" src="img/portrait.jpg" />
+            </div>
+            <div class="col-lg-9">
+              <h2>About Ryan</h2>
+              <p>
+                Ryan Arnanjaya showed a keen interest in the world of animation
+                since he was a child. He enjoyed creating 3D models of cartoon
+                characters from paper. Ryan was quickly fascinated by 3D
+                computer graphics applications, which has become his sole
+                passion. While learning the nuances of 3D methodology, Ryan also
+                pursued deep learning, machine learning, and computer vision in
+                his spare time.
+              </p>
+              <p>
+                Currently, Ryan is studying 3D Computer Animation and Visual
+                Effects at the Academy of Art University with an emphasis on
+                Rigging. He is proficient in Maya and Zbrush, along with Python,
+                MEL, PyMel, and C++ to create production tools and
+                workflow-accelerating scripts. Ryan previously worked as a
+                Technical Director / Rigger Intern at Hompimpa Animation and
+                Enspire Studio.
+              </p>
+              <p>
+                Ryan envisions the creation of memorable digital characters
+                through creative and technical excellence. He believes in
+                teamwork and effective hard work in contributing to a team’s
+                success.
+              </p>
+              <p>
+                <a href="/resume/ArnanjayaRyan_résumé.docx" download
+                  >Download Résumé</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--==========================
@@ -337,7 +385,13 @@
                 Sunnyvale, CA 94087<br />
                 United States <br />
                 <strong>Phone:</strong> +1 858 847 8963<br />
-                <strong>Email:</strong> ryanarnanjaya@gmail.com<br />
+                <strong>Email:</strong>
+                <a
+                  href="mailto:RyanArnanjaya@gmail.com?Subject=Hello%20Ryan"
+                  target="_top"
+                  >RyanArnanjaya@gmail.com</a
+                >
+                <br />
               </p>
 
               <div class="social-links">
