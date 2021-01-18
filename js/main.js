@@ -36,10 +36,11 @@ jQuery(document).ready(function ($) {
 
   // Initialize Venobox
   $('.venobox').venobox({
-    bgcolor: '',
+    bgcolor: 'rgba(0, 0, 0, 1.0)',
     overlayColor: 'rgba(6, 12, 34, 0.85)',
     closeBackground: '',
-    closeColor: '#fff'
+    closeColor: '#fff',
+    infinigall : true,
   });
 
   // Initiate superfish on nav menu

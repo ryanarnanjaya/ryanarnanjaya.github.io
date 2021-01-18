@@ -669,7 +669,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-    background: url("../img/about-bg.jpg");
+    background: url("../img/bg.jpg");
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -753,6 +753,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #gallery .gallery .details a {
     color: #fff;
+}
+
+#gallery .gallery:hover .details h3 {
+    color: #f82249;
 }
 
 #gallery .gallery .details a:hover {
@@ -1674,4 +1678,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     #subscribe button {
         margin-top: 10px;
     }
+}
+
+/*--------------------------------------------------------------
+# Custom VenoBox
+--------------------------------------------------------------*/
+
+img.figlio {
+    max-height: 600px;
 }
